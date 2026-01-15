@@ -4,6 +4,11 @@ class Termide < Formula
   version "0.8.9"
   license "MIT"
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   on_macos do
     on_intel do
       url "https://github.com/termide/termide/releases/download/0.8.9/termide-0.8.9-x86_64-apple-darwin.tar.gz"
@@ -30,12 +35,6 @@ class Termide < Formula
 
   def install
     bin.install "termide"
-
-    # Install help files
-    (share/"termide/help").install "help/en.txt"
-    (share/"termide/help").install "help/ru.txt"
-
-    # Install documentation
     doc.install "README.md"
     doc.install "LICENSE"
   end
