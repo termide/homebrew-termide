@@ -1,7 +1,7 @@
 class Termide < Formula
   desc "Cross-platform terminal IDE, file manager and virtual terminal"
   homepage "https://github.com/termide/termide"
-  version "0.12.4"
+  version "0.12.5"
   license "MIT"
 
   livecheck do
@@ -11,25 +11,25 @@ class Termide < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/termide/termide/releases/download/0.12.4/termide-0.12.4-x86_64-apple-darwin.tar.gz"
-      sha256 "f7677518f76ce7468549a65b8ac10bd85903f7ba23c4369d6782804c3d62ec68"
+      url "https://github.com/termide/termide/releases/download/0.12.5/termide-0.12.5-x86_64-apple-darwin.tar.gz"
+      sha256 "46f24a40160b301d09d47ff5f036582b4ee4623f0fefdda4e20f30d3631af6a0"
     end
 
     on_arm do
-      url "https://github.com/termide/termide/releases/download/0.12.4/termide-0.12.4-aarch64-apple-darwin.tar.gz"
-      sha256 "2e417d45043768667bf06aa3946bca3a90f2895a11de2ca1d56b8cafabefdced"
+      url "https://github.com/termide/termide/releases/download/0.12.5/termide-0.12.5-aarch64-apple-darwin.tar.gz"
+      sha256 "c209e29ab8da59dbe23d62de9b45838d9266508fcfceed646fecb7a4012782f5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/termide/termide/releases/download/0.12.4/termide-0.12.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "240c3529b4e46e6d33325c7f62d9212aa987361464133241d698e28f495e628e"
+      url "https://github.com/termide/termide/releases/download/0.12.5/termide-0.12.5-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "85f37249f5c45f17f96606b6dac8c4589e54b392ab5f3c222f44999007821669"
     end
 
     on_arm do
-      url "https://github.com/termide/termide/releases/download/0.12.4/termide-0.12.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c35bc67b1046478cfb46c5d280c54946bb0e725239c0067810032de1a521e4b2"
+      url "https://github.com/termide/termide/releases/download/0.12.5/termide-0.12.5-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "04cd575eb4278d6528651f632ceee080a028cd5a7147cd6d1f1f2b0e7d56d058"
     end
   end
 
