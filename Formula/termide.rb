@@ -1,7 +1,7 @@
 class Termide < Formula
   desc "Cross-platform terminal IDE, file manager and virtual terminal"
   homepage "https://github.com/termide/termide"
-  version "0.16.2"
+  version "0.16.3"
   license "MIT"
 
   livecheck do
@@ -11,25 +11,25 @@ class Termide < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/termide/termide/releases/download/0.16.2/termide-0.16.2-x86_64-apple-darwin.tar.gz"
-      sha256 "7038fc6cb8e2d083426626b8b341db4a657ef17cb6bb0ca814cf7bc2f8c2d83c"
+      url "https://github.com/termide/termide/releases/download/0.16.3/termide-0.16.3-x86_64-apple-darwin.tar.gz"
+      sha256 "299e08250af1e27744b3de1ea05543650d1eff42cd664c15308259ec0290a978"
     end
 
     on_arm do
-      url "https://github.com/termide/termide/releases/download/0.16.2/termide-0.16.2-aarch64-apple-darwin.tar.gz"
-      sha256 "32f1140205e86d9322f87549d1c151aa80595c903c5e666d71a3021d5951a01d"
+      url "https://github.com/termide/termide/releases/download/0.16.3/termide-0.16.3-aarch64-apple-darwin.tar.gz"
+      sha256 "b280814f422eda2f75b463d01ae093d2c3969de64f31f0ac75bb36122d6438c1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/termide/termide/releases/download/0.16.2/termide-0.16.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "634838dfdd18ae72fef6788e1e5715379f56c328f244465d9b3f517ab160ceb1"
+      url "https://github.com/termide/termide/releases/download/0.16.3/termide-0.16.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "b76cbc6794f34edd20213f27ed98260a6bf1d5e1203151d7afd6cd3a97e4ee95"
     end
 
     on_arm do
-      url "https://github.com/termide/termide/releases/download/0.16.2/termide-0.16.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4d2b2e75d320bf9a3f87f077db2920cefe641a22e29ef670a72d557c34abd064"
+      url "https://github.com/termide/termide/releases/download/0.16.3/termide-0.16.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d96dadd686e071208df06dab4e0b5fd0aad0d00b11b4fb6333f3d0084c778293"
     end
   end
 
