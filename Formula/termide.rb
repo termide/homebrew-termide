@@ -12,24 +12,24 @@ class Termide < Formula
   on_macos do
     on_intel do
       url "https://github.com/termide/termide/releases/download/0.18.1/termide-0.18.1-x86_64-apple-darwin.tar.gz"
-      sha256 "ea2e2aa294397af57cf06a9031ec1db6fb130e42788138d9110b749e26566292"
+      sha256 "0c71c7f2441c39a0768553ea7cc158be77368841e3805088e8c5cb27102c1048"
     end
 
     on_arm do
       url "https://github.com/termide/termide/releases/download/0.18.1/termide-0.18.1-aarch64-apple-darwin.tar.gz"
-      sha256 "dc5342cbfee1bdcf706ff3ee023ee4bee1622924324692af95ee6ce9aba295d3"
+      sha256 "78215667a6ef4392a2b3926820648c9abf98ab618f463f6745c51e3be89779f4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/termide/termide/releases/download/0.18.1/termide-0.18.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "be3b3fa555d74d7eedb804a86fe5292992ed7e3fbb4d9620ca124447e95ec3a8"
+      sha256 "3cb2e9784a7caee26d48a5f86e04e1b03a9c82040cb57478a65d9e69f86db4dc"
     end
 
     on_arm do
       url "https://github.com/termide/termide/releases/download/0.18.1/termide-0.18.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "74702f96e3c78c1186091e93c866aafda0cb37a4288298c264ec8becc5063dc1"
+      sha256 "ba4be489557a4439f7842702e4321a1781e864f6505102d5af4c2b58c243f81e"
     end
   end
 
